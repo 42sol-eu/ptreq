@@ -1,5 +1,12 @@
 = Readme: PTREQ - Pure Text Requirements
-
+felix.haeberle@icloud.com
+2024-06-23
+////
+file-id: e192348f-f190-49d0-9cf5-95f86adac301
+file-type: project-readme
+project-name: ptreq
+project-id: 11320d17-f243-4e2f-a841-e52098b2b439
+////
 == Experimental Project to create text-based requirements for software projects
 
 This project is an experiment to create a text-based requirements system for software projects. The idea is to create a simple, easy to use, and easy to understand system that can be used to create and manage requirements for software projects.

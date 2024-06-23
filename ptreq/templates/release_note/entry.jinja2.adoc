@@ -1,0 +1,10 @@
+////
+file-type: jina2-asciidoc-snippet
+file-id: 676182bc-d1b1-4e82-896f-504ea3b41bd6
+project-name: ptreq
+project-id: 11320d17-f243-4e2f-a841-e52098b2b439
+////
+| {{req_id}}
+| {{req_state}}
+| {{req_text}}
+| {{req_remark}}

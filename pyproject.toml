@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "ptreq"
-version = "2024.0.0"
+version = "2024.1.0"
 description = "A Pure Text Requirement Tool"
 authors = [ "andreas felix haeberle <felix.haeberle@icloud.com>",]
 license = "AGPL"

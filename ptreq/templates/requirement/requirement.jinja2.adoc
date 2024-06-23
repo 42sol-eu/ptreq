@@ -1,0 +1,23 @@
+////
+file-type: jina2-asciidoc-snippet
+file-id: 2a68c2fe-1b19-4a63-88a5-09e93f633eef
+project-name: ptreq
+project-id: 11320d17-f243-4e2f-a841-e52098b2b439
+////
+= {{req_id}}
+{{req_author}}
+{{req_effective_date}}
+//<header>
+:req_state: {{req_state}}
+:line_from: {{req_from_line}}
+:line_to: {{req_to_line}}
+//</header>
+
+== {{req_title}}
+{{req_body}}
+
+== Links
+[square]
+{% for link_item in req_links %}
+* <<{{ link_item }}>>
+{% endfor %}

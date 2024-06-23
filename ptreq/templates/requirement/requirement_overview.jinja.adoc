@@ -1,0 +1,10 @@
+////
+file-type: jina2-asciidoc-snippet
+file-id: 35a52af1-beb2-486a-99ab-5b1d854a604c
+project-name: ptreq
+project-id: 11320d17-f243-4e2f-a841-e52098b2b439
+////
+| {{req_id}}
+| {{req_state}}
+| include:{{req_id}}.adoc[line:{{req_from_line}}..{{req_to_line}}]
+| 
