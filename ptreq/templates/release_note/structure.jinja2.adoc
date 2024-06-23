@@ -1,0 +1,111 @@
+= Release Notes
+:doctype: book
+:toc: left
+:toclevels: 2
+:sectnums:
+
+== Title and Version Information
+- Title of the product
+- Version number
+- Release date
+
+== Introduction
+- Brief overview of the release
+- Purpose of the release
+- Major changes or highlights
+
+=== Refernce Documents
+
+[cols="1,2,1,2"]
+|===
+| ID | Name | Rev. | Remark
+{% for item in reference_documents %}
+| {{ item.id }}
+| {{ item.name }}
+| >={{ item.revision }} 
+| {{ item.remark }}
+{% endfor %}
+|===
+
+== Summary
+- New features (grouped by severity, sequrity...)
+- Enhancements
+- Performance improvements
+
+== Known Issues
+
+- Table of known problems that have not been resolved in this release
+- Workarounds or temporary solutions
+
+== Fixed Issues
+- List of bugs and issues that have been fixed
+- References to issue tracking numbers, if applicable
+
+
+== Installation and Upgrade Instructions
+
+include:installation.adoc[]
+////
+- Step-by-step instructions for installing the new version
+- Upgrade procedures from previous versions
+- Pre-requisites and dependencies
+////
+
+== Compatibility Information
+
+This software is developped for a specific Stadler vehicle. 
+
+=== Hardware Requirements
+
+TODO: write about the hardware requirements (ABox,VBox)
+
+=== Vehicle and Multitraction Compatibility
+
+TODO: write about compatibility with other software on the train / and multitraction-information  
+
+[IMPORTANT]
+----
+We always recommend to update the software on all vehicles and not run different versions on the same train-set.
+----
+
+== Support and Contact Information
+
+TODO: Customer support contact details
+
+=== How to get help or report issues
+
+TODO: Instructions for contacting support
+
+=== If you want to train your team
+
+TODO: Information about training programs
+
+== Details
+
+TODO: add a generated list of full change details 
+
+== Acknowledgements
+
+TODO: - Credits to contributors, developers, and testers
+
+=== Third-party Libraries
+
+[NOTE]
+----
+This software is build with and on the following libaries. +
+We would like to thank the authors and contributors of these libraries for their hard work and dedication. +
+Please note that the product support stays with us as the product vendor. If need be we will contact the library authors and ensure their support. 
+----
+
+[cols="1,1,2,2"]
+|===
+| ID | Version | License | Details
+{% for item in used_libraires %}
+| {{ item.name }}
+| {{ item.version }}
+| {{ item.license }} 
+| {{ item.author }}
+{% endfor %}
+|===
+
+== Change-Log

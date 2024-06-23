@@ -16,6 +16,10 @@ logger = logging.getLogger(__name__)
 
 
 class RequirementParser:
+    """
+    Parses requirements from a given file.
+    
+    """
     def __init__(self, file_path="./requirements", extension=".adoc"):
         if Path(file_path).exists is False:
             logging.error(f"File {file_path} does not exist.")

@@ -60,3 +60,30 @@ felix.haeberle@icloud.com
 
 |===
 
+== Git 
+
+[cols="1,1,1,1",options="header"]
+|===
+| Command | Description | Stage | Notes
+
+| `git config --global help.autocorrect 20`
+| Supercharge Git with autocorrect
+| system setup
+| (set this up for your co-worker, you can also think about `alias got='git'` to add a typo correction for `git`)
+
+== Git LFS
+
+[cols="1,1,1,1",options="header"]
+|===
+| Command | Description | Stage | Notes
+
+| `git lfs install`
+| Install Git LFS
+| setup
+| --- (needs the package `git-lfs` installed on your system)
+
+| `git lfs track '*.{{file-ext}}'`
+| Track files with a specific extension
+| setup
+| `git lfs track '*.pdf'`
+|===

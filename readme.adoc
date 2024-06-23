@@ -43,3 +43,4 @@ equals the
 GIVEN a user is logged in 
 AND the profile page is active
 ----
+
