@@ -1,0 +1,37 @@
+= Readme: PTREQ - Pure Text Requirements
+
+== Experimental Project to create text-based requirements for software projects
+
+This project is an experiment to create a text-based requirements system for software projects. The idea is to create a simple, easy to use, and easy to understand system that can be used to create and manage requirements for software projects.
+
+It uses:
+
+. git for version control
+. python to automate the process
+. poetry for the package management (for best results install `poetry` with `pipx`)
+. asciidoc for the documentation markup
+
+== A Requirements
+
+Is a statement of what a system should do or how it should behave. It is a description of the system's functionality, performance, and other attributes.
+
+A requirement should be defined with a clear and concise statement that can be easily understood by all stakeholders. For this project we suggest to use the syntax behaviour driven development (BDD):
+
+. `GIVEN`: the context or preconditions
+. `WHEN`: the action
+. `THEN`: the expected outcome
+
+All sections can be combined with `AND` so that a 
+
+[source,gerkin]
+----
+GIVEN a user is logged in 
+GIVEN the profile page is active
+----
+
+equals the 
+[source,gerkin]
+----
+GIVEN a user is logged in 
+AND the profile page is active
+----
