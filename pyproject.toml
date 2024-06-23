@@ -1,8 +1,12 @@
+[build-system]
+requires = [ "poetry-core",]
+build-backend = "poetry.core.masonry.api"
+
 [tool.poetry]
 name = "ptreq"
-version = "2024.1.0"
+version = "2024.0.0"
 description = "A Pure Text Requirement Tool"
-authors = ["andreas felix haeberle <felix.haeberle@icloud.com>"]
+authors = [ "andreas felix haeberle <felix.haeberle@icloud.com>",]
 license = "AGPL"
 readme = "README.md"
 
@@ -10,13 +14,12 @@ readme = "README.md"
 python = "^3.12"
 rich = "^13.7.1"
 click = "^8.1.7"
+toml = "^0.10.2"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.4.2"
 pytest = "^8.2.2"
 behave = "^1.2.6"
 behave-pytest = "^0.1.1"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+sphinx = "^7.3.7"
+typer = "^0.12.3"

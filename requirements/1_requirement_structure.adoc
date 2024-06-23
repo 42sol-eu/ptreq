@@ -1,0 +1,22 @@
+:source-highlighter: highlight.js
+
+[cols="1,1,4a,4a"]
+|===
+| RID
+| State
+| Text
+| Links
+
+| {{rid}}
+| new
+| [source,gerkin]
+----
+GIVEN a requirement git-project
+AND the tool `ptreq` is installed
+WHEN a new requirement is added
+THEN the requirement body will be parsed to get a checksum
+AND the requirement will be given a unique Requirement-ID (rid)
+AND the requirement will track external requirements linked to this requirement 
+----
+| design a requirement
+|===

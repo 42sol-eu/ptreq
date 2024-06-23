@@ -9,7 +9,8 @@ It uses:
 . git for version control
 . python to automate the process
 . poetry for the package management (for best results install `poetry` with `pipx`)
-. asciidoc for the documentation markup
+. asciidoctor for the documentation markup (using ruby)
+. https://github.com/domgold/asciidoctor-gherkin-extension
 
 == A Requirements
 

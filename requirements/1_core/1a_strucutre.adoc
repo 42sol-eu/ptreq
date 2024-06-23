@@ -1,0 +1,23 @@
+[cols="1,1,4,4"]
+|===
+| RID
+| State
+| Text
+| Links
+
+| {newrid}
+| new
+a| [source,bdd]
+----
+GIVEN a requirement git-project 
+AND the tool `ptreq` is installed 
+WHEN a requirement is defined
+THEN the requirement MUST have a `id` body will be parsed to get a checksum
+AND the requirement MUST have a `body`
+AND the requirement MUST have a `state`
+AND the requirement MAY have one ore more `link`s
+AND the requirement MAY have additional information
+----
+| ---
+
+|===

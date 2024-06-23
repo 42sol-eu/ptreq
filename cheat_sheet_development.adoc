@@ -1,0 +1,62 @@
+= Cheat Sheet: Development
+felix.haeberle@icloud.com
+2024-06-23
+//<header>
+:file-id: 21740775-a3e7-46a2-a76f-8280f0dda47f
+:project-name: cheat-sheets
+:project-id: d9408d4d-f12a-45b4-85cf-896444627393
+//</header>
+
+== Poetry
+
+[cols="1,1,1,1",options="header"]
+|===
+| Command | Description | Stage | Notes
+
+| `poetry init` 
+| Create a new project 
+| setup 
+| ---
+
+| `poetry add {{package}}`
+| Add a package to the project
+| development
+| ---
+
+| `poetry add --dev {{package}}`
+| Add a package to the project as a development dependency
+| development
+| ---
+
+| `poetry remove {{package}}`
+| Remove a package from the project
+| development
+| ---
+
+| `poetry install`
+| Install dependencies
+| development
+| ---
+
+| `poetry update`
+| Update dependencies as per the pyproject.toml file.
+| development
+| ---
+
+|`poetry shell`
+| Activate the virtual environment.
+| development
+| ---
+
+| `poetry run {{command}}`
+| Run commands within the Poetry-managed environment.
+| test
+| 
+
+| `poetry build`
+| Build the project.
+| build
+| Creates the distribution file (`.tar.gz`) and the installer package (`.whl`) in the folder `dist` 
+
+|===
+
