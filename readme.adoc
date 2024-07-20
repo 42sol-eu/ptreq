@@ -19,7 +19,16 @@ It uses:
 . asciidoctor for the documentation markup (using ruby)
 . https://github.com/domgold/asciidoctor-gherkin-extension
 
-== A Requirements
+== A Requirement 
+
+=== Structure
+
+[ditaa]
+----
+
+----
+
+=== Definition With Gherkin
 
 Is a statement of what a system should do or how it should behave. It is a description of the system's functionality, performance, and other attributes.
 

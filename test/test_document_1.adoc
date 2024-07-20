@@ -1,0 +1,37 @@
+---
+title: Sample Requirement
+id: REQ-001
+author: Jane Doe
+status: draft
+created_at: 2024-07-20
+---
+= Sample Requirement Document
+
+== Introduction
+
+This document outlines a sample requirement for demonstration purposes.
+
+== Requirement Description
+
+The system shall provide the ability to register a new user account with the following fields:
+
+* Username
+* Password
+* Email address
+* Full name
+
+== Functional Requirements
+
+. User Registration
+The system shall allow a user to register an account with a unique username and a valid email address.
+
+. Email Verification
+The system shall send a verification email to the user's email address upon registration.
+
+. Password Strength
+The system shall enforce a strong password policy, requiring at least 8 characters, one uppercase letter, one number, and one special character.
+
+== Non-Functional Requirements
+
+. Performance
+The system shall be able to handle 1000 concurrent user registrations without performance degradation.

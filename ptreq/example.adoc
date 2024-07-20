@@ -1,0 +1,17 @@
+----
+project: ptreq
+id: 4636eabe-0866-495d-9dcc-efd08c28e9c8
+state: active
+created: 2024-06-23
+modified: 2024-06-23
+history: 
+- 2024-05-08: Initial commit
+- 2024-06-23: Added README
+----
+== Pure Text Requirements - a requirement
+
+=== Structure 
+
+=== Type Definitions
+
+=== Change-Log

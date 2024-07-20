@@ -71,6 +71,8 @@ felix.haeberle@icloud.com
 | system setup
 | (set this up for your co-worker, you can also think about `alias got='git'` to add a typo correction for `git`)
 
+|===
+
 == Git LFS
 
 [cols="1,1,1,1",options="header"]
@@ -86,4 +88,5 @@ felix.haeberle@icloud.com
 | Track files with a specific extension
 | setup
 | `git lfs track '*.pdf'`
+
 |===
